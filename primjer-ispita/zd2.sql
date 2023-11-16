@@ -1,0 +1,3 @@
+SELECT *
+FROM Orders
+WHERE NOT Orders.OrderDate BETWEEN '1/1/2000' AND '12/1/2000'
